@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EcoHarvest</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="add_sales">Tambah Penjualan</string>
+    <string name="profile">Profile</string>
+    <string name="fab">fab</string>
+    <string name="add_photo">add photo</string>
+    <string name="type">Jenis Limbah</string>
+    <string name="description">Deskripsi</string>
+    <string name="type_harvest">Jenis limbah</string>
+    <string name="price">Harga</string>
+    <string name="rp_10000">Rp. 10000</string>
+    <string name="description_your_harvest">Deskripsikan limbah yang mau kamu jual</string>
+    <string name="Location">Lokasi</string>
+    <string name="location_picker">Location Picker</string>
+    <string name="upload">Upload</string>
+    <string name="Choose_your_option">Pilih Opsi berikut</string>
+    <string name="Gallery">Galeri</string>
+    <string name="Camera">Kamera</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="don_t_you_have_account">Don\'t you have account?</string>
+    <string name="home">Home</string>
+</resources>

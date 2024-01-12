@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490827741691",
+    "project_id": "ecoharvest-16892",
+    "storage_bucket": "ecoharvest-16892.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490827741691:android:7d07d3911ad74bfdf8735e",
+        "android_client_info": {
+          "package_name": "com.example.ecoharvest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-yUrACyRJXnY3Pi1PPTrYu2MH5l7-efs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

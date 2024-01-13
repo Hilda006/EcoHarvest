@@ -1,4 +1,4 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import android.Manifest
 import android.app.Dialog
@@ -16,6 +16,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
+import com.example.ecoharvest.R
 import com.example.ecoharvest.databinding.ActivityAddItemBinding
 import com.example.ecoharvest.databinding.AlertDialogBinding
 import com.example.ecoharvest.utils.createTimeFile

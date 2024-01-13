@@ -1,4 +1,4 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

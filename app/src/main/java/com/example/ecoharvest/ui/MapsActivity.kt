@@ -1,7 +1,8 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ecoharvest.R
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap

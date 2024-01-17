@@ -25,4 +25,24 @@
     <string name="home">Home</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event_terdekat">Event terdekat</string>
+    <string name="banner">banner</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="tips_popular">Tips Populer</string>
+    <string name="on_trending">On Trending</string>
+    <string name="eco_tips">Eco Tips</string>
+    <string name="eco_collaboration">EcoCollabs</string>
+    <string name="eco_mart">EcoMart</string>
+    <string name="vegetagood">Vegetagood</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aut consequuntur cum dolores eius eos expedita fugiat illo molestiae, natus nisi numquam obcaecati odio officiis quidem quis rem velit.</string>
+    <string name="click_to_upload"> <u>click to upload</u></string>
+    <string name="unggah_hingga_10_gambar">Unggah hingga 10 gambar</string>
+    <string name="category">Kategori</string>
+    <string name="jerami">Jerami</string>
+    <string name="fruit">Buah</string>
+    <string name="sayur">Sayur</string>
+    <string name="tambahkan_lainnya">+Tambahkan lainnya</string>
+    <string name="product_name">Nama Produk</string>
+    <string name="location">Lokasi</string>
+    <string name="unggah">Unggah</string>
 </resources>

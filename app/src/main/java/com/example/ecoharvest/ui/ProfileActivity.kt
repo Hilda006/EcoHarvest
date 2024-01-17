@@ -5,15 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.ecoharvest.ARG_PARAM1
-import com.example.ecoharvest.ARG_PARAM2
 import com.example.ecoharvest.R
 
-/**
- * A simple [Fragment] subclass.
- * Use the [ProfileActivity.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class ProfileActivity : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -21,10 +15,7 @@ class ProfileActivity : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
     }
 
     override fun onCreateView(
@@ -48,10 +39,7 @@ class ProfileActivity : Fragment() {
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             ProfileActivity().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+
             }
     }
 }

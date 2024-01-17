@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.ecoharvest.R
+import com.example.ecoharvest.UploadProductActivity
 import com.example.ecoharvest.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.fab.setOnClickListener{
-            startActivity(Intent(this, AddItemActivity::class.java))
+            startActivity(Intent(this, UploadProductActivity::class.java))
         }
         navigation = binding.bottomNavigationView
         navigation.setOnItemSelectedListener {

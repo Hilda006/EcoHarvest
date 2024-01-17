@@ -21,6 +21,12 @@
         android:theme="@style/Theme.EcoHarvest"
         tools:targetApi="31">
         <activity
+            android:name=".UploadProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollaborationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
         <activity
@@ -32,13 +38,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Images"
             android:exported="false" />
         <activity
             android:name=".ui.AddItemActivity"
-            android:exported="false"/>
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

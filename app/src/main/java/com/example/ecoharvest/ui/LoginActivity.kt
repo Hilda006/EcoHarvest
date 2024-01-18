@@ -27,8 +27,8 @@ class LoginActivity : AppCompatActivity() {
     }
     private fun login(){
         binding.progressBar.visibility = View.VISIBLE
-        val email = binding.EmailText.text.toString()
-        val password = binding.PasswordText.text.toString()
+        val email = binding.emailText.text.toString()
+        val password = binding.passwordEditText.text.toString()
         if (email.isNotEmpty() && password.isNotEmpty()){
             firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                 if (it.isSuccessful){

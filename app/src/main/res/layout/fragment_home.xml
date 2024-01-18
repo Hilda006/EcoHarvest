@@ -143,7 +143,7 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ImageView
-                                android:id="@+id/imageView12"
+                                android:id="@+id/ecoTips"
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="8dp"
@@ -179,7 +179,7 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ImageView
-                                android:id="@+id/imageView13"
+                                android:id="@+id/ecoCollab"
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="8dp"
@@ -216,7 +216,7 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ImageView
-                                android:id="@+id/imageView14"
+                                android:id="@+id/EcoEdu"
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="8dp"
@@ -253,7 +253,7 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ImageView
-                                android:id="@+id/imageView15"
+                                android:id="@+id/ecoMart"
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="8dp"

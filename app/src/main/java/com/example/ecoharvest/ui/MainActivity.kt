@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.ecoharvest.R
-import com.example.ecoharvest.UploadProductActivity
 import com.example.ecoharvest.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

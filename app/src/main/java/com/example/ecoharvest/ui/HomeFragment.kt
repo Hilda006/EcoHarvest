@@ -1,29 +1,47 @@
 package com.example.ecoharvest.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.ecoharvest.CollaborationActivity
+import com.example.ecoharvest.EducationActivity
+import com.example.ecoharvest.MartActivity
 import com.example.ecoharvest.R
+import com.example.ecoharvest.TipsActivity
+import com.example.ecoharvest.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+  private lateinit var binding : FragmentHomeBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
+        binding.ecoMart.setOnClickListener {
+            startActivity(Intent(context, MartActivity::class.java))
+        }
+        binding.ecoCollab.setOnClickListener {
+            startActivity(Intent(context, CollaborationActivity::class.java))
+        }
+        binding.ecoTips.setOnClickListener {
+            startActivity(Intent(context, TipsActivity::class.java))
+        }
+        binding.EcoEdu.setOnClickListener {
+            startActivity(Intent(context, EducationActivity::class.java))
+        }
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        binding = FragmentHomeBinding.inflate(inflater, container, false)
+        return binding.root
+
+
     }
 
     companion object {

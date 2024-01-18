@@ -3,9 +3,9 @@ package com.example.ecoharvest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class UploadProductActivity : AppCompatActivity() {
+class TipsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_upload_product)
+        setContentView(R.layout.activity_tips)
     }
 }

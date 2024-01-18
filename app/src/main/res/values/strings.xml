@@ -18,7 +18,7 @@
     <string name="Gallery">Galeri</string>
     <string name="Camera">Kamera</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="email">Email</string>
+    <string name="email">E-mail</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="don_t_you_have_account">Don\'t you have account?</string>
@@ -45,4 +45,9 @@
     <string name="product_name">Nama Produk</string>
     <string name="location">Lokasi</string>
     <string name="unggah">Unggah</string>
+    <string name="more_desc">Dapat digunakan untuk bahan pakan ternak</string>
+    <string name="i_accept_the_terms_of_use">I accept the terms of use.</string>
+    <string name="you_can_also">You can also</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="i_don_t_have_an_account"><u>I don’t have an account</u></string>
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@layout/fragment_home"
+    android:id="@+id/bottom_nav">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.ecoharvest.ui.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Home"/>
+
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.ecoharvest.ui.ProfileActivity"
+        tools:layout="@layout/fragment_profile_activity"
+        android:label="@string/profile"/>
+
+
+
+</navigation>

@@ -21,7 +21,7 @@
         android:theme="@style/Theme.EcoHarvest"
         tools:targetApi="31">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ui.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,22 +30,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EducationActivity"
+            android:name=".ui.EducationActivity"
             android:exported="false" />
         <activity
-            android:name=".TipsActivity"
+            android:name=".ui.TipsActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailMartActivity"
+            android:name=".ui.DetailMartActivity"
             android:exported="false" />
         <activity
-            android:name=".MartActivity"
+            android:name=".ui.MartActivity"
             android:exported="false" />
         <activity
             android:name=".ui.UploadProductActivity"
             android:exported="false" />
         <activity
-            android:name=".CollaborationActivity"
+            android:name=".ui.CollaborationActivity"
             android:exported="false" />
         <activity
             android:name=".ui.LoginActivity"

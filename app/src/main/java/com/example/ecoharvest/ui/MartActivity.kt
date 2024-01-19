@@ -1,9 +1,8 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ecoharvest.data.adapter.Mart
@@ -11,7 +10,6 @@ import com.example.ecoharvest.data.adapter.MartAdapter
 
 import com.example.ecoharvest.databinding.ActivityMartBinding
 import com.google.firebase.firestore.DocumentChange
-import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.FirebaseFirestore
 
 

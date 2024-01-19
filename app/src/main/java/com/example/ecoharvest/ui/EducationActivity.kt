@@ -1,11 +1,12 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ecoharvest.R
 
-class CollaborationActivity : AppCompatActivity() {
+class EducationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_collaboration)
+        setContentView(R.layout.activity_education)
     }
 }

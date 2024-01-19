@@ -6,11 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.ecoharvest.CollaborationActivity
-import com.example.ecoharvest.EducationActivity
-import com.example.ecoharvest.MartActivity
-import com.example.ecoharvest.R
-import com.example.ecoharvest.TipsActivity
 import com.example.ecoharvest.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {

@@ -1,14 +1,12 @@
-package com.example.ecoharvest
+package com.example.ecoharvest.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.example.ecoharvest.R
 import com.example.ecoharvest.databinding.ActivitySplashScreenBinding
-import com.example.ecoharvest.ui.LoginActivity
-import com.example.ecoharvest.ui.MainActivity
-import kotlinx.coroutines.delay
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {

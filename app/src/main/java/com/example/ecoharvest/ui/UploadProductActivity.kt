@@ -16,9 +16,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
-import com.example.ecoharvest.MartActivity
 import com.example.ecoharvest.R
-import com.example.ecoharvest.databinding.ActivityAddItemBinding
 import com.example.ecoharvest.databinding.ActivityUploadProductBinding
 import com.example.ecoharvest.databinding.AlertDialogBinding
 import com.example.ecoharvest.utils.createTimeFile

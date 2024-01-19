@@ -1,17 +1,10 @@
 package com.example.ecoharvest.data.adapter
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.net.toFile
-import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.ecoharvest.DetailMartActivity
-import com.example.ecoharvest.MartActivity
 import com.example.ecoharvest.databinding.ItemMartBinding
-import com.example.ecoharvest.utils.uriToFile
-import java.io.File
 
 class MartAdapter(private val mart : List<Mart>) : RecyclerView.Adapter<MartAdapter.MyViewHolder>() {
 
